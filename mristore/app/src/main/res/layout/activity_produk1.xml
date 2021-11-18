@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".produk1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/white">
+
+                    <androidx.cardview.widget.CardView
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:background="@color/silver"
+                        app:contentPadding="5dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_height="200dp">
+
+                        <ImageView
+                            android:layout_width="400dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/peci1"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:background="@color/silver"
+                        app:contentPadding="5dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_height="200dp">
+
+                        <ImageView
+                            android:layout_width="400dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/peci2"/>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/ijo"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="Rp 45.000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="PECI MUSLIM DEWASA MOTIF TENUN SONGKET KOPIAH ANAK SONGKOK HITAM DAN AKAD UAS MEDAN ISTANA SONGKET"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="Deskripsi"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="PECI MUSLIM DEWASA MOTIF TENUN SONGKET KOPIAH ANAK SONGKOK HITAM DAN AKAD UAS MEDAN ISTANA SONGKET
+
+PEMESAN PARTAI BESAR/KODIAN BISA CHAT ADMIN KAMI KASIH HARGA GROSIR
+
+Tinggi 8-11cm
+Untuk request tinngi tukis di Catatan ya kak
+
+
+
+Ukuran lingkar kepala.
+
+
+No.1 = 19 inci
+No.2 = 19 ½ inci
+No.3 = 20 inci
+No.4 = 20 ½ inci
+No.5 = 21 inci
+No.6 = 21 ½ inci
+No.7 = 22 inci
+No.8 = 22 ½ inci
+No.9 = 23 inci
+No.10 = 23 ½ inci
+No.11 = 24 inci
+
+size anak 1-3
+size remaja 4-6
+size dewasa 5-11
+
+jika bingung bisa tanya cara mengukur lingkar kepala via chat
+
+ukuran kami sama dengan peci nasional bludru hitam ya kak
+
+Penting!!!
+Pesanan/pembayran sebelum jam 11:00 akan dikirm hari itu juga, jika lewat dikirm ke esokkannya ya kak.
+
+Peci songket produk tempahan pengiriman bisa 1-2 tergantung padatnya pesanan kami.
+
+Harap di chek ukuran lingkar kepala sebelum memesan :)
+
+—-PERATURAN TOKO—-
+Harap di chek ukuran lingkar kepala sebelum memesan :)
+Karena barang tidak bisa di return/kembalikan/tukar,
+Memesan berarti setuju dgn peraturan toko 🙏🏻
+
+Yang memberi bintang di 1,2 dan 3 tanpa memberikan alasan yang jelas mohon maaf dgn berat hati kami block
+
+
+#pecisongket #songketbatubara #songket #tenunsongket #songketmurah #bajusongket #peci #istanasongket #tenunan #kopiah #songkok #pecianak #pecidewasa #pecinikah #songkokanak"
+                android:textSize="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:clickable="true"
+                android:layout_width="150dp"
+                app:contentPadding="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="15dp"
+                android:onClick="clickCheckout"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:text="Beli Sekarang"
+                    android:textSize="20dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:clickable="true"
+                android:layout_width="180dp"
+                app:contentPadding="5dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-50dp"
+                app:cardCornerRadius="15dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:text="Tambah ke Troli"
+                    android:textSize="20dp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

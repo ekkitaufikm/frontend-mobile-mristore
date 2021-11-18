@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ijomuda"
+    tools:context=".register">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/person" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="180dp"
+        android:text="DAFTAR AKUN"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="Nama Lengkap"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="270dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:hint="nama lengkap" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="Username"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="360dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:hint="username" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="420dp"
+        android:text="Password"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/xnis"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="50dp"
+        android:background="@color/white"
+        android:layout_marginTop="450dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:text="password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="520dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:text="MASUK" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="570dp"
+        android:text="Sudah Punya Akun? LOGIN"
+        android:onClick="clickLogin"
+        android:textAlignment="center"
+        android:textColor="#889FB4" />
+
+</RelativeLayout>
